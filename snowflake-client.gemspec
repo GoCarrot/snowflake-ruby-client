@@ -10,5 +10,4 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/GoCarrot/snowflake-ruby-client.git'
 
   s.add_dependency('thrift')
-  s.add_dependency('thin') # Because thrift 0.9.1 is borked...
 end
